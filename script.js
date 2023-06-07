@@ -26,9 +26,9 @@ function encriptar(stringEncriptada){
 }
 
 function btnDesencriptar(){
-    const textoDesencriptado = desencriptar(textArea.value) //encriptando texto//
-    messageArea.value = textoDesencriptado; //mostrando texto encriptado//
-    textArea.value = ""; //borrando texto de entrada//
+    const textoDesencriptado = desencriptar(messageArea.value) //desencriptando texto//
+    textArea.value = textoDesencriptado; //mostrando texto desencriptado//
+    messageArea.value = ""; //borrando texto de entrada//
 }
 
 function desencriptar(stringDesencriptada){
