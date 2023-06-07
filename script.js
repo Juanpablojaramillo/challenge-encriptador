@@ -13,6 +13,8 @@ function btnEncriptar(){
     textArea.value = ""; //borrando texto de entrada//
 }
 
+//Creando funcio encriptar//
+
 function encriptar(stringEncriptada){
     let matrizCodigo =  [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
@@ -42,6 +44,19 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada
 }
+
+
+//creando funcion boton copiar//
+function btnCopiar(){
+    copiar(messageArea.value)
+}
+
+//creando funcion de copiar//
+function copiar(texto) {
+    navigator.clipboard.writeText(texto);
+}
+
+
 
 
 
