@@ -14,7 +14,7 @@
 .logo{
     margin-top:2%;
     margin-left:5%;
-    width: 15%;
+    width: 30%;
 }
 
 main{
@@ -24,13 +24,12 @@ main{
 }
 
 .divBoton1{
-    margin-top: 40%;
+    margin-top: 15%;
     margin-left: 72%;
 }
 
 .sectionTextArea{
     width:50%;
-    align-items: center;
 }
 
 .textArea{
@@ -44,6 +43,7 @@ main{
     overflow: hidden;
     resize:none;
     margin-left:10%;
+    margin-top: 0%;
     padding:5%;
     border-radius: 32px;
 }
@@ -74,7 +74,7 @@ divBoton&figura{
 }
 
 .figura{
-    width: 30%;
+    width: 40%;
     margin-top: 0%;
     margin-left: 0%;
     margin-bottom: -20px;
